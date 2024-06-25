@@ -1,0 +1,42 @@
+
+
+
+html,body{
+          background-color: rgb(121, 90, 52);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+
+}
+
+.cont{
+          height: 400px;
+          width: 300px;
+          background-color: rgb(254, 252, 252);
+          border-radius: 10px;
+          position: relative;
+          overflow: hidden;
+        
+}
+.img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          
+
+}.cont i{
+          font-size: 50px;
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          opacity: 0;
+          transform: translate(-50%,-50%) scale(0);
+          transition: transform ease 0.4s;
+
+          
+
+
+}
